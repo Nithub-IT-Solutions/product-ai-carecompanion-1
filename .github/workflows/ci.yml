@@ -23,7 +23,7 @@ jobs:
           npm run build --if-present
       - name: Python
         if: hashFiles('pyproject.toml', 'requirements.txt') != ''
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with: { python-version: "3.12" }
       - name: Python test
         if: hashFiles('pyproject.toml', 'requirements.txt') != ''
