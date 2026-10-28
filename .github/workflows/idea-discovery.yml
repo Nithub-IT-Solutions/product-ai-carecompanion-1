@@ -29,4 +29,5 @@ jobs:
             write research into docs/research/, update docs/Idea-Report.md and docs/Next-Process.md,
             and open a Gate 1 pull request for CEO review. Use a feature branch; never push to main,
             approve or merge a pull request, or claim that the CEO has approved a later gate.
+          show_full_output: true
           claude_args: "--max-turns 30"
